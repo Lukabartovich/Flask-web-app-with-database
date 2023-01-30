@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log in</title>
+    <link rel="stylesheet" href="static/LogIn.css">
+</head>
+<body>
+<h1>Log in</h1>
+<br>
+<form action="/LogResult" method="post">
+    {{form.name.label}} {{form.name}}
+    <br>
+    {{form.password.label}} {{form.password}}
+    <br>
+    <br>
+    {{form.button_commit}}
+
+</form>
+</body>
+</html>

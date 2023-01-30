@@ -1,0 +1,20 @@
+h1{
+    font-size: 50px;
+    color: White;
+    text-align: center;
+}
+input[type=text]{
+    width: 40%;
+    color: #E54844FF
+}
+input[type=submit]{
+    width: 35%;
+    height: 20%;
+    color: #E54844FF
+}
+form{
+    color: #5AF0B7FF;
+}
+body{
+    background-color: #2F0027FF
+}

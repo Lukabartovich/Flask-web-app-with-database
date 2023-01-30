@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sing in</title>
+    <link rel="stylesheet" href="static/SignIn.css">
+</head>
+<body>
+<h1>Sign in</h1>
+<form action="/SingResult" method="post">
+    {{form.name.label}} {{form.name}}
+    <br>
+    {{form.password.label}} {{form.password}}
+    <br>
+    <br>
+    {{form.button_commit}}
+
+</form>
+</body>
+</html>
